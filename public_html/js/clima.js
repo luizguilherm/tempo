@@ -24,8 +24,8 @@ function getClima() {
             $('#pordosol').html(descPorDoSol);
             
             var icone = data.weather[0].icon;
-            var caminho = 'img/icones/'+ícone+'.png';
-            $('#icone').attr(src, cominhoIcone);
+            var caminhoIcone = 'img/icones/'+icone+'.png';
+            $('#icone').attr('src', caminhoIcone);
             
             
 
